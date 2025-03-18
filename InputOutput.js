@@ -40,3 +40,30 @@ console.log(typeof(NaN))
  
 
 
+var z=1, y = z  = typeof y;
+
+console.log(y)
+console.log(3 - '53')
+let a =10;
+let b = new Number(10);
+let c =10;
+ 
+ 
+console.log(a === b);
+console.log(b === c);
+
+var x=10;
+
+for(let i=0; i<2;i++)
+{
+    let x = 20;
+    console.log(i,x)
+}
+var x = 90
+console.log(x)
+
+const arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]];
+arr4.flat(Infinity);
+// [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+ 
+
